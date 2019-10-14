@@ -6,9 +6,9 @@
  * Copyright (C) 2017 Hakim El Hattab, http://hakim.se
  */
 :root {
-  --header-color: #280E42;
-  --blue-color: #38d39f;
-  --text-color: #280E42;
+  --header-color: #0E1344;
+  --blue-color: #EF233C;
+  --text-color: #0E1344;
   --light-color: #F2F2F2;
   --white-color: #FFFFFF;
   --weight300: 300;
@@ -39,6 +39,7 @@ body {
   text-align: center !important; }
 
 .hljs {
+  background-color: #0E1344 !important;
   font-size: 110% !important; }
 
 .logo-sa {
@@ -191,7 +192,7 @@ h2.title {
 .text {
   padding: 0 50px !important; }
   .text h1, .text h2, .text h3, .text h4, .text h5, .text h6 {
-    color: #280E42 !important; }
+    color: #0E1344 !important; }
 
 .text.nopadding {
   padding: 0 !important;
@@ -228,8 +229,17 @@ h2.title {
 .text h6 {
   text-transform: none !important;
   color: var(--blue-color);
-  font-size: 36px !important;
+  font-size: 36px;
   font-weight: var(--weight500) !important; }
+  .text h2.bigger-header,
+  .text h3.bigger-header,
+  .text h4.bigger-header,
+  .text h5.bigger-header,
+  .text h6.bigger-header {
+    font-size: 45px !important; }
+
+.bigger-header {
+  font-size: 45px !important; }
 
 .text ul {
   margin: 20px 0 !important;
@@ -285,7 +295,7 @@ h2.title {
   .text code.no-padding {
     padding: 30px 0 !important; }
   .text code a {
-    color:  #38d39f!important; }
+    color: #EF233C !important; }
 
 .colorbg .title {
   color: var(--white-color) !important; }
@@ -504,11 +514,9 @@ body {
     border: 0;
     outline: 0;
     cursor: pointer;
-    color: #5C16A3;
+    color: #EF233C;
     transform: scale(0.9999);
-    transition: color 0.2s ease,
- opacity 0.2s ease,
- transform 0.2s ease;
+    transition: color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
     z-index: 2;
     pointer-events: auto;
     font-size: inherit;
@@ -525,7 +533,7 @@ body {
     width: 2.6em;
     height: 0.5em;
     border-radius: 0.25em;
-    background-color: #38d39f;
+    background-color: #EF233C;
     transition: all 0.15s ease, background-color 0.8s ease;
     transform-origin: 0.2em 50%;
     will-change: transform; }
@@ -677,7 +685,7 @@ body {
   display: block;
   height: 100%;
   width: 0px;
-  background-color: #38d39f;
+  background-color: #EF233C;
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
 
 /*********************************************

@@ -1,13 +1,13 @@
-$header-color: #280E42;
-$blue-color: #5C16A3;
-$text-color: #280E42;
+$header-color: #0E1344;
+$blue-color: #EF233C;
+$text-color: #0E1344;
 $light-color: #F2F2F2;
 $white-color: #FFFFFF;
 
 :root {
-  --header-color: #280E42;
-	--blue-color: #38d39f;
-	--text-color: #280E42;
+  --header-color: #0E1344;
+	--blue-color: #EF233C;
+	--text-color: #0E1344;
 	--light-color: #F2F2F2;
 	--white-color: #FFFFFF;
 
@@ -274,8 +274,16 @@ h2.title {
 .text h6 {
 	text-transform: none!important;
 	color: var(--blue-color);
-	font-size: 36px!important;
+	font-size: 36px;
 	font-weight: var(--weight500)!important;
+
+	&.bigger-header {
+		font-size: 45px !important;
+	}
+}
+
+.bigger-header {
+	font-size: 45px !important;
 }
 
 .text ul {
