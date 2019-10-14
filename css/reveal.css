@@ -80,25 +80,25 @@ body {
 
 @media only screen and (max-width: 1700px) {
   .slides .inner {
-    padding: 0 80px; } }
+    padding: 0 50px; } }
 
 .slides .inner-left {
-  width: 72%; }
+  width: 70%; }
 
 .slides .inner-left-50 {
   width: 50%; }
 
 .slides .inner-left-small {
-  width: 22%; }
+  width: 27%; }
 
 .slides .inner-full {
   width: 100%; }
 
 .slides .inner-right {
-  width: 25%; }
+  width: 27%; }
 
 .slides .inner-right-big {
-  width: 74%; }
+  width: 72%; }
 
 .slides .inner-right-50 {
   width: 45%; }
